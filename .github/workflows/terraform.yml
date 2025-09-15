@@ -9,12 +9,12 @@ on:
    
 
   permissions:
-     contents: -read
+     contents: read
 
   ## env:
     ## AWS_REGION: ${{}}
 
-Jobs:
+jobs:
   Terraform:
     name: Terraform
     runs-on: Windows-latest
