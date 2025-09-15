@@ -35,7 +35,7 @@ jobs:
         aws-secret-key: ${{secrets.AWS_SECRET_KEY}}
 
     - name: Setup-Terraform
-      uses: harshicorp/setup-terraform@v2
+      uses: hashicorp/setup-terraform@v2
 
       with:
         terraform_version: "1.5.0"
